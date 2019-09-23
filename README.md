@@ -33,4 +33,4 @@ Output the script:
 
 Note: 
 
-Both the machines have been same virtual network and it can be communicated each other. (try using "ping public-ip)
+Both the machines have been same virtual network and it can be communicated each other. (try using "ping public-ip")
