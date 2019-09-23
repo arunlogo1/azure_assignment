@@ -3,6 +3,8 @@ Azure Assignment for Skylabs
 
 Terra assignment:
 
+Pre-requiste:
+
 -> Install Azure  CLI in the host machine.
 
 ->  Sign in with your Microft azure portal in your browser and configure Azure  profile using "az login" command from your terminal. Verification code will be generated and paste the same in your azure URL.
@@ -15,6 +17,10 @@ Terra assignment:
 
 -> pull the master repo in your local host using "git pull origin master"
 
+
+Terraform Execution:
+
+
 -> Initialize the terraform script using "terraform init" - it will download necessary plugins and modules
 
 -> plan the infrastructure using "terraform plan"
@@ -23,9 +29,13 @@ Terra assignment:
 
 -> In case, if you would like to delete the created infracture , execute "terraform destroy"
 
+
 Output the script:
 
+
 -> Copy the file disk.sh using copy over ssh command "scp disk.sh user@public:/home/{username}/"
+
+-> Provide the execute access to run the script "chmod -x disk.sh"
 
 -> Execute the script "./disk.sh" and check the cpu utilization and disk utilization"
 
