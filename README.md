@@ -28,3 +28,6 @@ Output the script:
 -> Copy the file disk.sh using copy over ssh command "scp disk.sh user@public:/home/{username}/"
 
 -> Execute the script "./disk.sh" and check the cpu utilization and disk utilization"
+
+
+Note: Both the machines have been same virtual network and it can be communicated each other. (try using "ping public-ip)
